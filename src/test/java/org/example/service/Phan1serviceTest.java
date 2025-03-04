@@ -15,7 +15,7 @@ class Phan1serviceTest {
         assertEquals(9,Phan1service.tinhTong(5));
         assertEquals(0,Phan1service.tinhTong(-1));
         assertEquals(1,Phan1service.tinhTong(1));
-        assertEquals(9,Phan1service.tinhTong(5));
+        assertEquals(6,Phan1service.tinhTong(5));
         assertEquals(9,Phan1service.tinhTong(5));
         assertEquals(9,Phan1service.tinhTong(5));
         assertEquals(9,Phan1service.tinhTong(5));

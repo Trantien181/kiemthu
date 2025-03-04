@@ -2,12 +2,13 @@ package org.example.service;
 
 public class Phan1service {
      
-    public Integer tinhTongMang(int[] arr){
-        if (arr == null) return 0;
-        int sum = 0;
-        for (int num : arr) {
-            sum += num;
+    public static Integer tinhTong(int n){
+        int tong = 0;
+        for (int i = 0; i<=n ; i++){
+            if (i % 2 != 0 ){
+                tong+=i;
+            }
         }
-        return sum;
+        return  tong;
     }
 }
